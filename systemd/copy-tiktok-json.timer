@@ -1,0 +1,11 @@
+[Unit]
+Description=Run TikTok JSON copy every 5 seconds
+
+[Timer]
+OnBootSec=5s
+OnUnitActiveSec=5s
+AccuracySec=1s
+Persistent=true
+
+[Install]
+WantedBy=timers.target

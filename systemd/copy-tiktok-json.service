@@ -1,0 +1,6 @@
+[Unit]
+Description=Copy TikTok JSON files
+
+[Service]
+Type=oneshot
+ExecStart=/home/paulius/Projects/studiofx/copy_tiktok_json.sh
