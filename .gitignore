@@ -1,3 +1,5 @@
 venv
 workingfiles
 follower-overlay/node_modules
+follower-overlay/.env
+.env
